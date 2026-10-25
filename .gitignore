@@ -1,0 +1,70 @@
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+.cache/
+.pnpm-store/
+*.tsbuildinfo
+
+# Environment variables and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+.npmrc
+.yarnrc.yml
+*.local
+
+# Credentials, private keys, certificates, and service accounts
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+credentials*
+service-account*.json
+service_account*.json
+secrets/
+.secrets/
+secrets.*
+*credentials*.json
+
+# Local preview/hosting metadata; not part of the public portfolio
+.openai/
+.sites/
+.sites-runtime/
+.sites-checkout*/
+.vercel/
+.netlify/
+.wrangler/
+.dev.vars
+.dev.vars.*
+.aws/
+.ssh/
+.agents/
+.codex/
+
+# Logs, databases, temporary files, and archives
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.tmp
+*.zip
+*.tar
+*.tar.gz
+work/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
